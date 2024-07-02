@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: VAG, serif;
+  src: url("/assets/fonts/VAGRoundedStd-Bold.ttf") format('truetype');
+}
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.level-number {
+  font-family: VAG, serif;
+  font-weight: 400;
+  margin-left: 5px;
+  color: white;
+}
+
+.grid-cell {
+  padding: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: white;
+  border-radius: 25%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vmin;
+}
+
+.active-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  > * {
+    background-color:  #65BD65;
+  ;
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: VAG, serif;
+  src: url("/assets/fonts/VAGRoundedStd-Bold.ttf") format('truetype');
+}
+.popup {
+  display: flex;
+  overflow: hidden;
+
+  padding-top: 50px;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2B344B;
+  color: white;
+  height: 100%;
+  font-family: VAGб serif;
+  font-size: 25px;
+}
+
+.continue-button {
+  background-color: #65BD65;
+  color: white;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 160px;
+  font-weight: 500;
+  font-size: 25px;
+}

@@ -1,0 +1,9 @@
+
+<div class="grid-container">
+  <div class="level-number">Уровень {{currentLevel +1}}</div>
+  <div  *ngFor="let item of vocabulary" [ngClass]="item.isActive ? 'active-row': 'grid-row'">
+    <div  *ngFor="let letter of item.value" class="grid-cell" >
+      {{letter}}
+    </div>
+  </div>
+</div>

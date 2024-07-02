@@ -1,0 +1,18 @@
+.current-input {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-cell {
+  padding: 8px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: white;
+  text-align-all: center;
+  color: black;
+  font-size: 30px;
+  border-radius: 25%;
+}
