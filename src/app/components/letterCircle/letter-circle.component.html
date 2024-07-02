@@ -1,0 +1,14 @@
+<div class="circle-container">
+  <div [ngClass]="detectClass()" (mousedown)="enableEntering()" (mouseup)="disableEnter($event)">
+    <div  *ngFor="let letter of currentLetters" [style.background-color]="detectLetterClass(letter.isActive) ? '#E96FA4' : 'white'" >
+        <a (mousedown)="selectLetter(letter, $event)"
+           (mouseover)="selectLetter(letter, $event)">
+          {{ letter.key }}
+        </a>
+    </div>
+  </div>
+</div>
+
+
+
+
