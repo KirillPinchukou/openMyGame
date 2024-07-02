@@ -38,17 +38,17 @@
 }
 
 .circle-6 {
-  @include on-circle(6, 160px, 30px)
+  @include on-circle(6, 160px, 20px)
 }
 .circle-4 {
-  @include on-circle(4, 160px, 30px)
+  @include on-circle(4, 160px, 20px)
 }
 
 .circle-7 {
   @include on-circle(7, 160px,  25px)
 }
 .circle-5 {
-  @include on-circle(5, 160px,  30px)
+  @include on-circle(5, 130px,  20px)
 }
 
 .circle-container {
